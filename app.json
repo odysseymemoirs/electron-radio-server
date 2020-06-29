@@ -1,0 +1,26 @@
+{
+    "name": "Simple Nodejs Radio using Websockets",
+    "description": "this file serts for deploying on heroku from github repo",
+    "website": "https://github.com/odysseymemoirs/electron-radio",
+    "repository": "https://github.com/odysseymemoirs/electron-radio",
+    "logo": "https://cdn.icon-icons.com/icons2/1751/PNG/512/4096575-heart-like-love_113760.png",
+    "success_url": "/",
+    "keywords": [
+      "node",
+      "express",
+      "socket.io",
+      "radio",
+      "websocket",
+      "electron"
+    ],
+    "scripts": {
+        "start": "node server.js"
+      },
+    "addons": [
+    ],
+    "buildpacks": [
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+        }
+      ]
+  }

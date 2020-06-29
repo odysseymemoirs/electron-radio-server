@@ -1,0 +1,20 @@
+{
+  "name": "electron-radio",
+  "version": "1.0.0",
+  "description": "electron radio example using webscokets",
+  "main": "server.js",
+  "scripts": {
+    "clientServer": "node server.js",
+    "start": "npm run clientServer"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-html-parser": "^1.2.18",
+    "radio-stream": "0.0.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  }
+}
